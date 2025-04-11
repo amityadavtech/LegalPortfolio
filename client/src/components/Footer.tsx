@@ -92,21 +92,21 @@ const Footer = () => {
                 <div className="text-[#E6AF2E] mr-3 mt-1">
                   <i className="fas fa-map-marker-alt"></i>
                 </div>
-                <span>Law Office Of Aftab Alam Ansari Advocate<br />Lakhimpur Kheri, Uttar Pradesh, India</span>
+                <span>Law Office Of Aftab Alam Ansari Advocate<br />Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010</span>
               </div>
               
               <div className="flex items-start">
                 <div className="text-[#E6AF2E] mr-3 mt-1">
                   <i className="fas fa-phone-alt"></i>
                 </div>
-                <span>+91 9005505557 / +91 8299429974</span>
+                <span>+91 9554505557</span>
               </div>
               
               <div className="flex items-start">
                 <div className="text-[#E6AF2E] mr-3 mt-1">
                   <i className="fas fa-envelope"></i>
                 </div>
-                <span>aftabalamanasari1987@gmail.com</span>
+                <span>aftab8490@live.com</span>
               </div>
             </div>
           </motion.div>

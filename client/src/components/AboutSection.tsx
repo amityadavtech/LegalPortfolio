@@ -29,7 +29,7 @@ const AboutSection = ({ registerSection }: AboutSectionProps) => {
 
   const statsItems = [
     { icon: "fa-user-graduate", title: "Education", details: "LLB Graduate", subDetails: "AIBE Qualified Advocate" },
-    { icon: "fa-gavel", title: "Experience", details: "14+ Years of Practice", subDetails: "80+ Criminal Cases Handled" },
+    { icon: "fa-gavel", title: "Experience", details: "25+ Years of Practice", subDetails: "800+ Criminal Cases Handled" },
     { icon: "fa-award", title: "Recognition", details: "Expert in Criminal, Civil & IP Law", subDetails: "Best Law Office of Aftab Alam Ansari" },
   ];
 
@@ -168,7 +168,7 @@ const AboutSection = ({ registerSection }: AboutSectionProps) => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: 0.7 }}
             >
-              Our firm uses secure ERP and IMS systems to manage cases efficiently, representing clients in Criminal and Civil matters across Lakhimpur Kheri and Lucknow. With over 14 years of experience, we handle a wide range of legal matters including Family & Marriage Laws and Criminal & Protection Laws.
+              Our firm uses secure ERP and IMS systems to manage cases efficiently, representing clients in Criminal and Civil matters across Lakhimpur Kheri and Lucknow. With over 25 years of experience, we handle a wide range of legal matters including Family & Marriage Laws and Criminal & Protection Laws.
             </motion.p>
             
             <motion.div 
