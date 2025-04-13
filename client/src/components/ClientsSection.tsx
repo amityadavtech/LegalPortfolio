@@ -12,7 +12,7 @@ const clients = [
   },
   {
     logo: "https://i.ibb.co/Fbs9tLJN/7.jpg",
-    name: "Maurya"
+    name: "Maurya Krishi & Steels"
   },
   {
     logo: "https://i.ibb.co/FbvjWCHH/3.jpg",
