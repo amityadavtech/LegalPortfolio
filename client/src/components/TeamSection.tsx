@@ -21,31 +21,30 @@ const attorneys = [
     }
   },
   {
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-    name: "Sarah Johnson",
-    title: "Senior Associate",
-    bio: "Sarah specializes in litigation and employment law. With her background in both corporate and non-profit sectors, she brings valuable insights to complex cases. Yale Law School graduate.",
+    image: "https://i.ibb.co/JwQYMYp8/2.jpg",
+    name: "Saif Ali Ansari",
+    title: "Junior Associate",
+    bio: "Saif specializes in litigation and employment law. With his background in both corporate and non-profit sectors, he brings valuable insights to complex cases.",
     socialLinks: {
       linkedin: "#",
       email: "sarah@advocateaftabalam.com"
     }
   },
   {
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-    name: "Michael Chen",
-    title: "Partner",
-    bio: "Michael's expertise in real estate law and estate planning has helped numerous clients protect their assets and secure their futures. Columbia Law School graduate with 10 years of experience.",
+    image: "https://i.ibb.co/yBbs0hDv/5.jpg",
+    name: "Ad Moid Khan",
+    title: "Senior  Associate",
+    bio: "Ad Moid Khan focuses on intellectual property and technology law. Her background in computer science provides her with unique insights into tech-related legal matters.",
     socialLinks: {
       linkedin: "#",
-      twitter: "#",
-      email: "michael@advocateaftabalam.com"
+      email: "alexandra@advocateaftabalam.com"
     }
   },
   {
-    image: "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    name: "Alexandra Davis",
-    title: "Associate",
-    bio: "Alexandra focuses on intellectual property and technology law. Her background in computer science provides her with unique insights into tech-related legal matters. Stanford Law School graduate.",
+    image: "https://i.ibb.co/hFQfpSmq/4.jpg",
+    name: "Mohammad Aman Ansari",
+    title: "Junior Associate",
+    bio: "Mohammad Aman Ansari is a sharp and strategic lawyer who uses his legal expertise to fight for justice. He represents clients in court, protects their rights, and resolves disputes with confidence and clarity.",
     socialLinks: {
       linkedin: "#",
       email: "alexandra@advocateaftabalam.com"
