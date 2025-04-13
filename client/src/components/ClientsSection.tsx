@@ -11,8 +11,8 @@ const clients = [
     name: "Travel Agency"
   },
   {
-    logo: "https://i.ibb.co/m503dY2g/2.jpg",
-    name: "Raymond"
+    logo: "https://i.ibb.co/Fbs9tLJN/7.jpg",
+    name: "Maurya"
   },
   {
     logo: "https://i.ibb.co/FbvjWCHH/3.jpg",
