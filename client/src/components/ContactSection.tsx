@@ -56,7 +56,8 @@ const ContactSection = ({ registerSection }: ContactSectionProps) => {
         <div className="text-center mt-8">
           <p className="text-gray-600">
             <strong>Address:</strong> Law Office Of Aftab Alam Ansari Advocate, 
-            Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010
+            Lucknow
+Vibhuti Khand, Gomti Nagar Oppostie High Court Bench Lucknow Gate No. 06
           </p>
         </div>
       </div>
