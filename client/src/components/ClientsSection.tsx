@@ -47,7 +47,7 @@ const locations = [
   },
   {
     city: "Delhi",
-    address: "Tis Hazaari Court Near District Bar Association Delhi, New Delhi 110054 Mob No. 9554505557",
+    address: "Tis Hazaari Court Near District Bar Association Delhi, New Delhi 110054",
     phone: "+91 9554505557",
     directionsLink: "https://maps.app.goo.gl/jvA5TVHaArU4T7aw5?g_st=awb"
   }
