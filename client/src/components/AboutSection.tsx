@@ -28,7 +28,7 @@ const AboutSection = ({ registerSection }: AboutSectionProps) => {
   };
 
   const statsItems = [
-    { icon: "fa-user-graduate", title: "Education", details: "LLB Graduate", subDetails: "AIBE Qualified Advocate" },
+    { icon: "fa-user-graduate", title: "Education", details: "LL.M in Law", subDetails: "AIBE Qualified Advocate" },
     { icon: "fa-gavel", title: "Experience", details: "25+ Years of Practice", subDetails: "800+ Criminal Cases Handled" },
     { icon: "fa-award", title: "Recognition", details: "Expert in Criminal, Civil & IP Law", subDetails: "Best Law Office of Aftab Alam Ansari" },
   ];
