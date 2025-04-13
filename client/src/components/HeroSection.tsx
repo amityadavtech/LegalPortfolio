@@ -183,7 +183,7 @@ const HeroSection = ({ registerSection }: HeroSectionProps) => {
                 repeatType: "reverse" 
               }}
             >
-              Aftab Alam Law Firm
+              Law Office Of Aftab Alam Ansari
             </motion.span>
           </motion.div>
           
