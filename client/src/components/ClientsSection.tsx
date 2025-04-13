@@ -7,28 +7,49 @@ interface ClientsSectionProps {
 
 const clients = [
   {
-    logo: "https://images.unsplash.com/photo-1516876437184-593fda40c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
-    name: "Summit Financial"
+    logo: "https://i.ibb.co/bjjn9jMs/1.jpg",
+    name: "Travel Agency"
   },
   {
-    logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
-    name: "Tech Innovations Inc."
+    logo: "https://i.ibb.co/m503dY2g/2.jpg",
+    name: "Raymond"
   },
   {
-    logo: "https://images.unsplash.com/photo-1554200876-56c2f25224fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    name: "Global Enterprises"
+    logo: "https://i.ibb.co/FbvjWCHH/3.jpg",
+    name: "The Desire Company"
   },
   {
-    logo: "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80",
-    name: "Metropolitan Properties"
+    logo: "https://i.ibb.co/230yZgxd/4.jpg",
+    name: "Avtar Steels"
   },
   {
-    logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
-    name: "Horizon Healthcare"
+    logo: "https://i.ibb.co/s9tb8g0D/5.jpg",
+    name: "Jindal Steel & Power"
   },
   {
-    logo: "https://images.unsplash.com/photo-1516876437184-593fda40c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
-    name: "Pinnacle Investments"
+    logo: "https://i.ibb.co/JjvxSJBP/6.jpg",
+    name: "Rivigo"
+  }
+];
+
+const locations = [
+  {
+    city: "Lucknow",
+    address: "D-12 Karamat Market, Nishatganj, Lucknow Uttar Pradesh India 226006",
+    phone: "+91 9598153950",
+    directionsLink: "#"
+  },
+  {
+    city: "Lakhimpur Kheri",
+    address: "Chamber No. 48 Civil Court Chambers Building DC Road, Lakhimpur Kheri UP 262701",
+    phone: "+91 9565815555",
+    directionsLink: "#"
+  },
+  {
+    city: "Delhi",
+    address: "Office Under Construction",
+    phone: "+91 0000000000",
+    directionsLink: "#"
   }
 ];
 
@@ -60,7 +81,8 @@ const ClientsSection = ({ registerSection }: ClientsSectionProps) => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+        {/* Clients Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-16">
           {clients.map((client, index) => (
             <motion.div
               key={index}
@@ -94,9 +116,36 @@ const ClientsSection = ({ registerSection }: ClientsSectionProps) => {
         >
           <div className="inline-block bg-[#F8F9FA] p-4 rounded-lg">
             <p className="text-gray-700 italic">
-              "We trust James Wilson Law Firm with our legal matters. Their expertise and dedication are unmatched."
+              "We trust Aftab Alam Law Firm with our legal matters. Their expertise and dedication are unmatched."
             </p>
-            <p className="mt-2 font-medium">— CEO, Summit Financial</p>
+            <p className="mt-2 font-medium">— CEO, Rivigo</p>
+          </div>
+        </motion.div>
+
+        {/* Office Locations Section */}
+        <motion.div
+          className="text-center mt-20"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <h3 className="text-2xl md:text-3xl font-semibold mb-6">Office <span className="text-[#E6AF2E]">Locations</span></h3>
+          <p className="text-gray-600 mb-10 max-w-xl mx-auto">We are available at the following locations; you can come and take help from us without any hesitation</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {locations.map((loc, idx) => (
+              <div key={idx} className="bg-[#F8F9FA] rounded-xl shadow-md p-6 text-left hover:shadow-lg transition-shadow duration-300">
+                <div className="flex items-center mb-2">
+                  <div className="w-6 h-6 mr-2 bg-black rounded-full flex items-center justify-center">
+                    <span className="text-white text-sm font-bold">📍</span>
+                  </div>
+                  <h4 className="text-lg font-bold">{loc.city}</h4>
+                </div>
+                <p className="text-sm text-gray-700 mb-2">{loc.address}</p>
+                <p className="text-sm text-gray-700 mb-4">{loc.phone}</p>
+                <a href={loc.directionsLink} className="text-[#E6AF2E] font-medium hover:underline text-sm">Get Directions</a>
+              </div>
+            ))}
           </div>
         </motion.div>
       </div>
