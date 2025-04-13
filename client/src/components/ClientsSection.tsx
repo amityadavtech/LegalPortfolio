@@ -35,21 +35,21 @@ const clients = [
 const locations = [
   {
     city: "Lucknow",
-    address: "D-12 Karamat Market, Nishatganj, Lucknow Uttar Pradesh India 226006",
-    phone: "+91 9598153950",
-    directionsLink: "#"
+    address: "Vibhuti Khand, Gomti Nagar Oppostie High Court Bench Lucknow Gate No. 06",
+    phone: "+91 9554505557",
+    directionsLink: "https://maps.app.goo.gl/LX6DDXXxRvsRd2RR6?g_st=awb"
   },
   {
     city: "Lakhimpur Kheri",
-    address: "Chamber No. 48 Civil Court Chambers Building DC Road, Lakhimpur Kheri UP 262701",
-    phone: "+91 9565815555",
-    directionsLink: "#"
+    address: "Civil Court's Near: Neta Ji Subash Chandra Bose Chamber's Chamber's Compound Lakhimpur Kheri 262701",
+    phone: "+91 9554505557",
+    directionsLink: "https://maps.app.goo.gl/JZWFQpLHNQUSPHKK7?g_st=awb"
   },
   {
     city: "Delhi",
-    address: "Office Under Construction",
-    phone: "+91 0000000000",
-    directionsLink: "#"
+    address: "Tis Hazaari Court Near District Bar Association Delhi, New Delhi 110054 Mob No. 9554505557",
+    phone: "+91 9554505557",
+    directionsLink: "https://maps.app.goo.gl/jvA5TVHaArU4T7aw5?g_st=awb"
   }
 ];
 
