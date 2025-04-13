@@ -168,7 +168,7 @@ const AboutSection = ({ registerSection }: AboutSectionProps) => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: 0.7 }}
             >
-              Our firm uses secure ERP and IMS systems to manage cases efficiently, representing clients in Criminal and Civil matters across Lakhimpur Kheri and Lucknow. With over 25 years of experience, we handle a wide range of legal matters including Family & Marriage Laws and Criminal & Protection Laws.
+              We As a Founder Of Law Office Of Aftab Alam Ansari Advocate working in this Profession as a Advocate Since 2010 We Dealed about 900+ Cases in Different Courts Of Lakhimpur Kheri, Lucknow, Delhi and Presented Our Best Efforts Before The Court and Also Court Has Considered. Many Of Clients were Dealing with Advocates By Dates By Dates we Believe in System Thar Justice delayed is Justice denied representing clients in Criminal and Civil matters across Lakhimpur Kheri, Lucknow and Delhi.
             </motion.p>
             
             <motion.div 
