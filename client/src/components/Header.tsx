@@ -164,7 +164,7 @@ const Header = ({ activeSection }: HeaderProps) => {
                 />
               </motion.div>
               <div className="text-xl font-serif font-bold text-[#0A2463] group-hover:text-[#E6AF2E] transition-colors duration-300">
-                Advocate Amit Yadav <span className="hidden md:inline text-sm font-sans font-normal text-gray-500">LAW FIRM</span>
+                Advocate Aftab Alam <span className="hidden md:inline text-sm font-sans font-normal text-gray-500">LAW FIRM</span>
               </div>
             </motion.button>
             
