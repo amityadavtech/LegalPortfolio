@@ -1,8 +1,9 @@
 {
+  "rootDirectory": "client",  // This tells Vercel where your project files are (inside the client folder)
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/(.*)",  // Match all routes
+      "destination": "/index.html"  // Redirect all to index.html
     }
   ]
 }
