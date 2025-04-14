@@ -70,39 +70,42 @@ const HeroSection = ({ registerSection }: HeroSectionProps) => {
   return (
     <section id="hero" ref={sectionRef} className="relative min-h-screen flex items-center text-white overflow-hidden pt-[104px]">
       {/* Animated Topbar */}
-      <motion.div 
-        className="fixed top-0 left-0 right-0 bg-[#0A2463] text-white py-2 z-50 shadow-md h-[32px]"
-        animate={{ y: showTopbar ? 0 : -32 }}
-        transition={{ type: "spring", damping: 20, stiffness: 300 }}
-      >
-        <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center h-full">
-          <div className="flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-4 mb-2 sm:mb-0">
-            <a href="tel:+919554505557" className="hover:text-[#E6AF2E] transition-colors text-sm sm:text-base">
-              <i className="fas fa-phone-alt mr-2"></i> +91 9554505557
-            </a>
-            <a href="mailto:aftab8490@live.com" className="hover:text-[#E6AF2E] transition-colors text-sm sm:text-base">
-              <i className="fas fa-envelope mr-2"></i> 
-              aftab8490@live.com
-            </a>
-          </div>
-          <div className="flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-4">
-            <span className="text-xs sm:text-sm">
-              <i className="fas fa-clock mr-2"></i> Mon-Sat: 10:00 AM - 7:00 PM
-            </span>
-            <div className="flex space-x-3">
-              <a href="https://www.facebook.com/aftabalamlmp?mibextid=ZbWKwL" className="hover:text-[#E6AF2E] transition-colors" target='_blank'>
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="https://youtube.com/channel/UCdWSJXOkTlVnAWiltezgX-Q" className="hover:text-[#E6AF2E] transition-colors" target='_blank'>
-                <i className="fab fa-youtube"></i>
-              </a>
-              <a href="https://www.instagram.com/advaftabalam/" className="hover:text-[#E6AF2E] transition-colors" target='_blank'> 
-                <i className="fab fa-instagram"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </motion.div>
+     {/* Animated Topbar */}
+<motion.div
+  className="fixed top-0 left-0 right-0 bg-[#0A2463] text-white py-2 z-50 shadow-md h-auto sm:h-[32px]"
+  animate={{ y: showTopbar ? 0 : -40 }}
+  transition={{ type: "spring", damping: 20, stiffness: 300 }}
+>
+  <div className="container mx-auto px-4 flex flex-wrap justify-between items-center gap-2 sm:gap-0 text-xs sm:text-sm">
+    <div className="flex flex-wrap items-center gap-2 sm:gap-4 w-full sm:w-auto justify-center sm:justify-start">
+      <a href="tel:+919554505557" className="hover:text-[#E6AF2E] transition-colors flex items-center">
+        <i className="fas fa-phone-alt mr-1"></i> +91 9554505557
+      </a>
+      <a href="tel:+919005505557" className="hover:text-[#E6AF2E] transition-colors flex items-center">
+        <i className="fas fa-phone-alt mr-1"></i> +91 9005505557
+      </a>
+    </div>
+
+    {/* Hidden content for mobile devices */}
+    <div className="hidden sm:flex flex-wrap items-center gap-2 sm:gap-4 justify-center sm:justify-end w-full sm:w-auto">
+      <span className="flex items-center">
+        <i className="fas fa-clock mr-1"></i> Mon-Sat: 10:00 AM - 7:00 PM
+      </span>
+      <div className="flex items-center space-x-3">
+        <a href="https://www.facebook.com/aftabalamlmp?mibextid=ZbWKwL" target="_blank" className="hover:text-[#E6AF2E] transition-colors">
+          <i className="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://youtube.com/channel/UCdWSJXOkTlVnAWiltezgX-Q" target="_blank" className="hover:text-[#E6AF2E] transition-colors">
+          <i className="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/advaftabalam/" target="_blank" className="hover:text-[#E6AF2E] transition-colors">
+          <i className="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</motion.div>
+
 
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0A2463]/95 via-[#0A2463]/80 to-[#0A2463]/95 z-10"></div>
