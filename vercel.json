@@ -1,9 +1,14 @@
 {
-  "rootDirectory": "client",  // This tells Vercel where your project files are (inside the client folder)
-  "rewrites": [
+  "builds": [
     {
-      "source": "/(.*)",  // Match all routes
-      "destination": "/index.html"  // Redirect all to index.html
+      "src": "client/package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/client/index.html"
     }
   ]
 }
