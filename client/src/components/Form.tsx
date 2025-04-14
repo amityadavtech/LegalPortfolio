@@ -41,7 +41,7 @@ const Form: React.FC = () => {
 
     try {
       const response = await fetch(
-        'google web script ka deploy wala url daaldo',
+        'https://script.google.com/macros/s/AKfycby1mBGCa8TyzGXeJhFCzd9Ho5Ux_9SdakbOyCpD-jRSCYzdwcE3Qkq8aYCpxEyftl3BWg/exec',
         {
           method: 'POST',
           mode: 'cors',
