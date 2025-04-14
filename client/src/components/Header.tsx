@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import logoImage from '../assets/logoalam.jpg';
+import Form from './Form';
 
 interface HeaderProps {
   activeSection: string;
@@ -451,119 +452,7 @@ const Header = ({ activeSection }: HeaderProps) => {
                   </motion.button>
                 </div>
                 
-                <motion.form 
-                  className="space-y-4"
-                  initial="hidden"
-                  animate="visible"
-                  variants={{
-                    hidden: { opacity: 0 },
-                    visible: {
-                      opacity: 1,
-                      transition: {
-                        staggerChildren: 0.1,
-                        delayChildren: 0.3
-                      }
-                    }
-                  }}
-                >
-                  <motion.div
-                    variants={{
-                      hidden: { opacity: 0, y: 10 },
-                      visible: { opacity: 1, y: 0 }
-                    }}
-                  >
-                    <label htmlFor="name" className="block text-sm font-medium mb-1 text-gray-600">
-                      Full Name*
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E6AF2E] focus:border-transparent"
-                      placeholder="John Doe"
-                      required
-                    />
-                  </motion.div>
-                  
-                  <motion.div
-                    variants={{
-                      hidden: { opacity: 0, y: 10 },
-                      visible: { opacity: 1, y: 0 }
-                    }}
-                  >
-                    <label htmlFor="phone" className="block text-sm font-medium mb-1 text-gray-600">
-                      Phone Number*
-                    </label>
-                    <div className="flex">
-                      <div className="bg-gray-100 flex items-center px-3 border border-gray-300 border-r-0 rounded-l-md text-gray-500">
-                        +91
-                      </div>
-                      <input
-                        type="tel"
-                        id="phone"
-                        className="w-full px-4 py-2 border border-gray-300 rounded-r-md focus:outline-none focus:ring-2 focus:ring-[#E6AF2E] focus:border-transparent"
-                        placeholder="1234567890"
-                        required
-                      />
-                    </div>
-                    <p className="mt-1 text-xs text-gray-500">Example: 9005505557</p>
-                  </motion.div>
-                  
-                  <motion.div
-                    variants={{
-                      hidden: { opacity: 0, y: 10 },
-                      visible: { opacity: 1, y: 0 }
-                    }}
-                  >
-                    <label htmlFor="preferred-time" className="block text-sm font-medium mb-1 text-gray-600">
-                      Preferred Time
-                    </label>
-                    <select
-                      id="preferred-time"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E6AF2E] focus:border-transparent"
-                    >
-                      <option value="">Select a time</option>
-                      <option value="morning">Morning (9AM - 12PM)</option>
-                      <option value="afternoon">Afternoon (12PM - 4PM)</option>
-                      <option value="evening">Evening (4PM - 6PM)</option>
-                    </select>
-                  </motion.div>
-                  
-                  <motion.div
-                    variants={{
-                      hidden: { opacity: 0, y: 10 },
-                      visible: { opacity: 1, y: 0 }
-                    }}
-                  >
-                    <label htmlFor="message" className="block text-sm font-medium mb-1 text-gray-600">
-                      Brief Description
-                    </label>
-                    <textarea
-                      id="message"
-                      rows={3}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E6AF2E] focus:border-transparent"
-                      placeholder="How can we help you?"
-                    ></textarea>
-                  </motion.div>
-                  
-                  <motion.div
-                    variants={{
-                      hidden: { opacity: 0, y: 10 },
-                      visible: { opacity: 1, y: 0 }
-                    }}
-                  >
-                    <motion.button
-                      type="submit"
-                      className="w-full bg-[#E6AF2E] hover:bg-yellow-500 text-[#0A2463] font-bold py-2.5 px-4 rounded-md transition-colors duration-300 shadow-lg"
-                      whileHover={{ 
-                        scale: 1.02,
-                        boxShadow: "0 5px 15px rgba(230, 175, 46, 0.4)",
-                      }}
-                      whileTap={{ scale: 0.98 }}
-                    >
-                      Request Callback
-                    </motion.button>
-                  </motion.div>
-                </motion.form>
+               <Form/>
               </div>
             </motion.div>
           </motion.div>
