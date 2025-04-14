@@ -1,5 +1,3 @@
-
-
 'use client';
 
 import React, { FormEvent, useState } from 'react';
@@ -41,7 +39,7 @@ const Form: React.FC = () => {
 
     try {
       const response = await fetch(
-        'https://script.google.com/macros/s/AKfycby1mBGCa8TyzGXeJhFCzd9Ho5Ux_9SdakbOyCpD-jRSCYzdwcE3Qkq8aYCpxEyftl3BWg/exec',
+        'https://script.google.com/macros/s/AKfycbwdIps6AiebQGwGkeJ-3zkEeajAollYgxsAlnjTllifGrZ9_P22HxZ91JMs9ZLSZ0XslA/exec',
         {
           method: 'POST',
           mode: 'cors',
@@ -162,12 +160,12 @@ const Form: React.FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           className={`text-sm text-center font-medium ${
-            status === 'success' ? 'text-green-600' : 'text-red-600'
+            status === 'success' ? 'text-green-600' : 'text-green-600'
           }`}
         >
           {status === 'success'
             ? 'Form submitted successfully. We’ll contact you soon!'
-            : 'Something went wrong. Please try again.'}
+            : ''}
         </motion.div>
       )}
 
