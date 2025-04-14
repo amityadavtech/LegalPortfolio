@@ -35,20 +35,20 @@ const clients = [
 const locations = [
   {
     city: "Lucknow",
-    address: "Vibhuti Khand, Gomti Nagar Oppostie High Court Bench Lucknow Gate No. 06",
+    address: "Vibhuti Khand, Gomti Nagar Oppostie High Court Bench Lucknow Gate No. 06 226010",
     phone: "+91 9554505557",
     directionsLink: "https://maps.app.goo.gl/LX6DDXXxRvsRd2RR6?g_st=awb"
   },
   {
     city: "Lakhimpur Kheri",
     address: "Civil Court's Near: Neta Ji Subash Chandra Bose Chamber's Chamber's Compound Lakhimpur Kheri 262701",
-    phone: "+91 9554505557",
+    phone: "+91 9005505557",
     directionsLink: "https://maps.app.goo.gl/JZWFQpLHNQUSPHKK7?g_st=awb"
   },
   {
     city: "Delhi",
     address: "Tis Hazaari Court Near District Bar Association Delhi, New Delhi 110054",
-    phone: "+91 9554505557",
+    phone: "+91 9005505557",
     directionsLink: "https://maps.app.goo.gl/jvA5TVHaArU4T7aw5?g_st=awb"
   }
 ];
@@ -152,5 +152,5 @@ const ClientsSection = ({ registerSection }: ClientsSectionProps) => {
     </section>
   );
 };
-
+ 
 export default ClientsSection;
