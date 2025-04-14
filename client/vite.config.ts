@@ -29,9 +29,9 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "attached_assets"),
     },
   },
-  root: path.resolve(__dirname, "client"),
+  root: path.resolve(__dirname, "client"), // This ensures Vite treats client/ as root
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
-    emptyOutDir: true,
+    outDir: path.resolve(__dirname, "dist"), // Output to dist/
+    emptyOutDir: true, // Empty the output directory before each build
   },
 });
