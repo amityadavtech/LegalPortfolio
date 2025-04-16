@@ -56,17 +56,9 @@ const DisclaimerPopup = () => {
               
               <div className="prose max-w-none mb-6">
                 <p className="mb-4">
-                  The information provided on this website is for general informational purposes only.
-                  It is not intended to be legal advice, and should not be construed as such.
+                  The Bar Council of India does not permit advertisement or solicitation by advocates in any form or manner. By accessing this website, https://vakeel-saab.in/, you acknowledge and confirm that you are seeking information relating to Aftab Ali Ansari & Associates of your own accord and that there has been no form of solicitation, advertisement or inducement by Aftab Ali Ansari & Associates or its members. The content of this website is for informational purposes only and should not be interpreted as soliciting or advertisement. No material/information provided on this website should be construed as legal advice. Legal issues are important decisions and must be taken after consulting a practising legal expert. By not exiting this website and continuing to explore same you agree with above and the detailed disclaimer available on this website.
                 </p>
-                <p className="mb-4">
-                  No attorney-client relationship is created by visiting this website or by communicating 
-                  with James Wilson or any of our attorneys through this website.
-                </p>
-                <p>
-                  Past case results do not guarantee similar outcomes in future cases. 
-                  Each case is unique and must be evaluated on its own merits.
-                </p>
+                
               </div>
               
               <div className="flex justify-center">
