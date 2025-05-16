@@ -58,15 +58,12 @@ const DisclaimerPopup = () => {
                 <p className="mb-4">
                   The information provided on this website is for general informational purposes only.
                   It is not intended to be legal advice, and should not be construed as such.
-                </p>
-                <p className="mb-4">
-                  No attorney-client relationship is created by visiting this website or by communicating 
+                   No attorney-client relationship is created by visiting this website or by communicating 
                   with James Wilson or any of our attorneys through this website.
-                </p>
-                <p>
                   Past case results do not guarantee similar outcomes in future cases. 
                   Each case is unique and must be evaluated on its own merits.
                 </p>
+                
               </div>
               
               <div className="flex justify-center">
