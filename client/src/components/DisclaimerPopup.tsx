@@ -56,7 +56,7 @@ const DisclaimerPopup = () => {
               
               <div className="prose max-w-none mb-6">
                 <p className="mb-4">
-                  The Bar Council of India does not permit advertisement or solicitation by advocates in any form or manner. By accessing this website, https://vakeel-saab.in/, you acknowledge and confirm that you are seeking information relating to Aftab Ali Ansari & Associates of your own accord and that there has been no form of solicitation, advertisement or inducement by Aftab Ali Ansari & Associates or its members. The content of this website is for informational purposes only and should not be interpreted as soliciting or advertisement. No material/information provided on this website should be construed as legal advice. Legal issues are important decisions and must be taken after consulting a practising legal expert. By not exiting this website and continuing to explore same you agree with above and the detailed disclaimer available on this website..
+                  The Bar Council of India prohibits advocates from advertising or soliciting in any form. By accessing https://vakeel-saab.in/, you confirm that you are seeking information about Aftab Ali Ansari & Associates voluntarily, with no solicitation, advertisement, or inducement by the firm or its members. The site content is for informational purposes only and should not be viewed as solicitation or legal advice. Legal matters should be addressed with a practising legal expert. By continuing to browse, you agree to this and the full disclaimer on the website.
                 </p>
                 
               </div>
